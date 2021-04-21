@@ -15,7 +15,7 @@ Read <a href="https://medium.com/tensorflow/real-time-human-pose-estimation-in-t
   <img src="https://github.com/kurnyaannn/posefication/blob/master/misc/pose_keypoints_pipeline.png?raw=true">
 </p>
 <h5 align="center">PoseNet Pipeline</h5>
-Short answer - This project is able to classify pose based on the coordinates provided from ml5js/PoseNet library, with the help of p5js those coordinates were drawn on top of canvas with particullar size, and ml5js take those coordinates as 'inputs' for the `dataset`, and then the `dataset` is used to classify the pose from user in real-time by comparing the coordinates from user and the `dataset`.
+Short answer - This project is able to classify pose based on the coordinates provided from ml5js/PoseNet library, with the help of p5js those coordinates were drawn on top of canvas with particullar size, and ml5js take those coordinates as 'inputs' for the 'dataset', and then the dataset is used to classify the pose from user in real-time by comparing the coordinates from user and the dataset.
 
 ## Requirements
 * You can see all dependencies inside the `<head>` tag.
