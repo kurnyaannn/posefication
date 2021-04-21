@@ -15,6 +15,10 @@ This Project is used to be my bachelor thesis project, but it's not anymore, so 
 Read <a href="https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5">this blog</a> for more information about real-time pose estimation using javascript.
 
 ## How does it work ?
+<p align="center">
+  <img src="https://github.com/kurnyaannn/posefication/blob/master/misc/pose_keypoints_pipeline.png?raw=true">
+</p>
+<h5 align="center">PoseNet Pipeline</h5>
 Short answer - This project is able to classify pose based on the coordinates provided from ml5js/PoseNet library, with the help of p5js those coordinates were drawn on top of canvas with particullar size, and ml5js take those coordinates as 'inputs' for the `dataset`, and then the `dataset` is used to classify the pose from user in real-time by comparing the coordinates from user and the `dataset`.
 
 ## Requirements
