@@ -6,12 +6,9 @@
 <h5 align="center">17 keypoints detected by PoseNet</h5>
 
 ## About
-This project is just still prototype, very simple real-time pose classification, yet this project worked perfectly fine.
-
-Built using Javascript with the help of [ml5js](https://ml5js.org) and [p5js](https://p5js.org) library.
-
-This Project is used to be my bachelor thesis project, but it's not anymore, so you can freely use this as you want.
-
+This project is just still prototype, very simple real-time pose classification, yet this project worked perfectly fine. <br>
+Built using Javascript with the help of [ml5js](https://ml5js.org) and [p5js](https://p5js.org) library.<br>
+This Project is used to be my bachelor thesis project, but it's not anymore, so you can freely use this as you want.<br>
 Read <a href="https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5">this blog</a> for more information about real-time pose estimation using javascript.
 
 ## How does it work ?
