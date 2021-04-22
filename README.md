@@ -64,6 +64,21 @@ Short answer - This project is able to classify pose based on the coordinates pr
     ```
   * After the camera loaded you can start posing, and this page will try to classify your pose based on the collected pose from Collect Pose Page.
 
+## Cofiguration
+To configure how much pose you want to save, you can customize that value inside `setup()` function inside `dataClassification.js` and `dataCollection.js`
+```javascript
+function setup() {
+    ...
+    let options = {
+        inputs: 34, // How much keypoints as input, 17 keypoints consist of x and y pairs so it's 34 coordinates
+        output: 4, // How much pose you want to save
+        task: 'classification',
+        debug: true
+    }
+    ...
+}
+```
+
 ## Guide To Collect the Data
 List of 'things' that may affect the Collecting Data Process :
 * Position
